@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-transform-ts-import",
+  "version": "0.1.0",
+  "description": "TypeScript in JavaScript imports resolver.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslankhh/babel-plugin-transform-ts-import.git"
+  },
+  "keywords": [
+    "babel",
+    "import",
+    "declaration",
+    "typescript"
+  ],
+  "author": "Ruslan Khusnetdinov <ruslankhh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruslankhh/babel-plugin-transform-ts-import/issues"
+  },
+  "homepage": "https://github.com/ruslankhh/babel-plugin-transform-ts-import#readme",
+  "files": [
+    "src/"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/template": "^7.1.0",
+    "@babel/preset-typescript": "^7.1.0"
+  }
+}
