@@ -1,0 +1,4 @@
+tests/fixtures/
+lib/
+*.min.js
+*.map
