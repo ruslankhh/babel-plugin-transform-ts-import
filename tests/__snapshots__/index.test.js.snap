@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/import-default.js 1`] = `
+"'use strict';
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    Hello = _ref.default;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/import-default-and-destruction.js 1`] = `
+"'use strict';
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    Hello = _ref.default,
+    helloPrefix = _ref.helloPrefix;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/import-destruction.js 1`] = `
+"'use strict';
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix = _ref.helloPrefix;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/import-multiple.js 1`] = `
+"'use strict';
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    Hello = _ref.default;
+
+var _ref2 = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix = _ref2.helloPrefix;
+
+var _ref3 = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix2 = _ref3.helloPrefix2;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/require-default.js 1`] = `
+"'use strict';
+
+var Hello = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}).default;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/require-default-and-destruction.js 1`] = `
+"'use strict';
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix = _ref.helloPrefix,
+    Hello = _ref.default;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/require-destruction.js 1`] = `
+"'use strict';
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix = _ref.helloPrefix;"
+`;
+
+exports[`babel-plugin-transform-ts-const transforms ./fixtures/require-multiple.js 1`] = `
+"'use strict';
+
+var Hello = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}).default;
+
+var _ref = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix = _ref.helloPrefix;
+
+var _ref2 = function (exports) {
+  Object.defineProperty(exports, \\"__esModule\\", {
+    value: true
+  });
+  exports.default = exports.helloPrefix = void 0;
+  var helloPrefix = 'Hello';
+  exports.helloPrefix = helloPrefix;
+  ;
+
+  var Hello = function Hello() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+    if (!props.name) {
+      props.name = 'World';
+    }
+
+    return ''.concat(helloPrefix, ', ').concat(props.name, '!');
+  };
+
+  var _default = Hello;
+  exports.default = _default;
+  return exports;
+}({}),
+    helloPrefix2 = _ref2.helloPrefix;"
+`;
